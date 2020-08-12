@@ -15,7 +15,8 @@ mkdir -p build/squid
 cp rules.patch build/squid/rules.patch
 
 # set squid version
-
+SQUID_VER="4.12"
+SQUID_PKG="${SQUID_VER}-1"
 
 # decend into working directory
 pushd build/squid
