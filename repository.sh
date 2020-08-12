@@ -23,7 +23,7 @@ apt-get update && apt-get install -y \
 OVERRIDE_DIR=/etc/systemd/system/squid.service.d
 OVERRIDE_CNF=$OVERRIDE_DIR/override.conf
 
-mkdir -p $OVERRIDE_DIR
+mkdir -rf $OVERRIDE_DIR
 
 # generate the override file
 rm $OVERRIDE_CNF
